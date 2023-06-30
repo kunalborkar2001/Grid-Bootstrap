@@ -1,0 +1,33 @@
+.tile {
+    filter: drop-shadow(3px 3px 3px black);
+    
+    
+}
+
+.tile img {
+    height: 248px;
+    width: 284px;
+    border-radius: 11px;
+    
+}
+
+.tile img:hover {
+    transform: scale(1.1);
+    filter: brightness(50%);
+    transition: all .8s;
+}
+
+.subtext {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: medium;
+    
+}
+p {
+    font-size: smaller;
+}
